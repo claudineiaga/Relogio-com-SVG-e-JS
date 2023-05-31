@@ -1,0 +1,89 @@
+svg {
+    position: absolute;
+    width: 80vh;
+    height: 80vh;
+    max-width: 80vw;
+    max-height: 80vw;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0px);
+}
+
+
+* {
+    -webkit-font-smoothing: antialiased;
+    -webkit-font-feature-settings: 'tnum';
+    -moz-font-feature-settings: 'tnum';
+    -ms-font-feature-settings: 'tnum';
+    backface-visibility: hidden;
+    stroke-width: 0;
+}
+body {
+    background: #f3f6f7;
+}
+body .f1 {
+    fill: #181f22;
+}
+body .f2 {
+    fill: #f3f6f7;
+}
+body.frog {
+    background: #181f22;
+}
+body.frog .f1 {
+    fill: #0ef998;
+}
+body.frog .s1 {
+    stroke: #0ef998;
+}
+body.frog .f2 {
+    fill: #181f22;
+}
+body.frog .s2 {
+    stroke: #181f22;
+}
+body.sol {
+    background: #181f22;
+}
+body.sol .f1 {
+    fill: #f99b0e;
+}
+body.sol .s1 {
+    stroke: #f90e5a;
+}
+body.sol .f2 {
+    fill: #181f22;
+}
+body.sol .s2 {
+    stroke: #181f22;
+}
+body.wasp {
+    background: #181f22;
+}
+body.wasp .f1 {
+    fill: #fff532;
+}
+body.wasp .s1 {
+    stroke: #fff532;
+}
+body.wasp .f2 {
+    fill: #181f22;
+}
+body.wasp .s2 {
+    stroke: #181f22;
+}
+body.terra {
+    background: #e76054;
+}
+body.terra .f1 {
+    fill: #ecf1cc;
+}
+body.terra .s1 {
+    stroke: #ecf1cc;
+}
+body.terra .f2 {
+    fill: #e76054;
+}
+body.terra .s2 {
+    stroke: #e76054;
+}
